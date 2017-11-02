@@ -1,0 +1,21 @@
+html{
+	height: 100%;
+    margin:0px;
+    background-color:#999999;
+    background-image: url("wide-eyed.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+	
+	}
+	body {
+    min-height: 100%;
+    margin:0px;
+}
+#appcontainer {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    width:560px; height:2220px;
+    left:20px; top:20px;
+}

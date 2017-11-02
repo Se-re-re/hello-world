@@ -1,0 +1,158 @@
+body {
+    /* margin: 10px; */
+    /* background-image: url("pink-2812.jpg"); */
+}
+
+.backgroundDiv  {
+    position: absolute;
+    top: 10px;
+    /* bottom: 10px; */
+    right: 10px;
+    left: 10px;
+    border: 1px solid #808080;
+    /* background-image: url("pink-2812.jpg"); */
+    background-color: #d1d1d1;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 1px #808080;
+    border-radius: 5px;
+    z-index: -1;    
+}
+
+.header1{
+    font-family: 'Comfortaa', cursive;    font-variant: small-caps;
+    max-width: 500px;
+    text-align: center;
+    border-bottom: 1px solid #808080;
+    padding: 20px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1vw;
+}
+
+header:hover{
+    background-color: gray;
+    box-shadow: 1px 1px 7px #808080;
+    color: #ffffff;
+    border-radius: 5px;
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: auto; 
+}
+
+
+.leftSideBar {
+    position: absolute;
+    /* left: 1%; */
+    top: 0;
+    bottom: 0;
+    background: #808080;
+    width: 15%;
+    /* height: 87%; */
+    box-shadow: 5px 5px 20px -5px;
+    z-index: 0;
+}
+
+.spanning{
+    width: inherit;
+    height: inherit;
+}
+
+.div2  {
+    position: relative;
+    /* top: inherit; */
+    /* left:inherit; */
+    /* right: inherit; */
+    background: #808080;
+    box-shadow: 1px 1px 3px #555;   
+    font-family: 'Handlee', cursive;
+    font-weight: 900;     
+}
+
+ul  {
+    margin: 0;
+    padding: 0;
+    /* position: relative; */
+    list-style-type: none;
+    border-radius: 5px;
+    background-color: #808080; 
+    z-index: 0;  
+    float: right;
+
+}
+
+li {
+    /* float: left; */
+    padding: 0 10px;
+    }
+
+li:nth-child(1), li:nth-child(2), li:nth-child(3){
+    padding-left: 0;
+    }
+    
+
+    
+
+
+li a{
+    display: block;
+    text-align: left;
+    padding: 10px;
+    text-decoration: none;
+    }
+
+
+
+li:hover{
+    background-color: #505050;
+    color: #ffffff;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    text-align: left;   
+    }
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+    width: inherit;
+}
+
+.dropdownContent{
+    position: absolute;
+    display: none;
+    box-shadow: 0 0 4px #d1d1d1;
+    width: inherit;
+    z-index: 1;
+    
+}
+
+.dropdownContent a{
+    background-color: #808080;
+}
+
+.dropdownContent a:hover{
+    background-color: #505050;
+    box-shadow: 0 0 14px #000000;    
+}
+
+.dropdown:hover .dropdownContent{
+    display: block;
+    /* opacity: 0;
+    transition: opacity 1s; */
+}
+
+.header2{
+    background-image: url("http://7-themes.com/data_images/out/68/7006126-love-images.jpg");
+    width: 300px;
+    height: 129px;
+}
+
+
+
+
+

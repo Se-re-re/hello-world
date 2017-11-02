@@ -1,0 +1,144 @@
+
+
+body{
+	padding: 0;
+	
+  }
+ html{
+	
+ } 
+	
+		
+	
+		
+	
+		
+	
+	h1.header1{
+		margin-top: 20vh;
+		font-variant: small-caps;
+		text-align: center;
+		letter-spacing: 20px;
+		font-size: 350%;
+		font-family: 'Palanquin', sans-serif;
+		color: #000;	
+		}
+		
+		/*********************Transition from the left.***********************/
+		
+		@media (max-width: 1366px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 54px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    .navbar-collapse.collapsing {
+        height: auto;
+        -webkit-transition: left 0.1s ease;
+        -o-transition: left 0.1s ease;
+        -moz-transition: left 0.1s ease;
+        transition: left 0.1s ease;
+        left: -100%;
+    }
+    .navbar-collapse.show {
+        left: 0;
+        -webkit-transition: left 0.1s ease-in;
+        -o-transition: left 0.1s ease-in;
+        -moz-transition: left 0.1s ease-in;
+        transition: left 0.1s ease-in;
+    }
+}
+
+/*********************Ends here.***********************/
+
+	/*ul {
+		display: block;
+		list-style-type:none;
+		font-size: 20px;
+		text-align: left;
+		}
+	ul li{
+		display: block;
+		}
+		*/
+	
+		
+	
+		
+	.octicon-three-bars{
+		margin: 0;
+		position: relative;
+		top: 1px;
+		color: #000;
+		font-size: 150%;
+		text-align: left;
+		}
+		
+	.h-100{
+		position: relative;
+		top: 7vh;
+		left: 0;
+		z-index: 0;
+		height: 100%;
+		background-color: purple;
+		}
+	.h-100 li{
+		color: #000 !important;
+		text-decoration: none;
+		}
+	li a .h-100-li:hover{
+		text-decoration: none;
+		}
+		
+	.float-sm-left{
+		padding: 8vh 0 0 50px;
+		}
+		
+	.colMargin{
+		width: 100%;
+		position: absolute;
+		right: 20px;
+		padding-top: 25px;
+		}
+		
+	.col-sm-2{
+		height: 100vh;
+		}
+		
+	.aliGn{
+		position: fixed;
+		width: 900px;
+		//left: 0;
+		//right: 0;
+		bottom: 0;
+		//border: 1px solid red;
+		border-radius: 5px;
+		background-color: rgba(200, 200, 200,1);
+		z-index: 30;
+		}
+		
+	.footer{
+		display: table;
+		width: 890px;
+		margin: 0 auto;
+		}
+	.aliGn li{
+		display: inline-block;
+		padding: 1.5vh 5vw 0.1vh 5vw;
+		}
+	/*.footer li:last-child{
+		padding-right: 0;
+		}	*/
+	li a img{
+		width: 50px;
+		height: 50px;
+		padding: 2px;
+		
+		}
+	li a img:hover{
+		border-bottom: 2px solid black;
+		}

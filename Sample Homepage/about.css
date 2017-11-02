@@ -1,0 +1,43 @@
+	.header1{
+		text-align : left;
+		font-family: Handlee;
+        }
+   .stylishFont{
+        font-family: Dosis;
+        font-size: 100%;
+        }
+    p::first-letter { 
+        font-size: 200%;
+        color: #8A2BE2;
+        }
+	#lorem{
+		text-align: justify;
+		}
+	.middleText{
+		text-align: center;
+		}
+	.col-sm-8{
+		padding: 20px;
+		border: 0 1px 0 1px solid black!important;
+		font-size: 120%;
+		}
+	.col-sm-8 h1, h6{
+		font-family: handlee;
+		}
+	.aboutMeContent img {
+		float: left;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		padding: 5px;
+		margin-right: 15px;
+		}
+
+	.aboutMeContent img:hover {
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+		}
+		
+	.aboutMeContent p{
+		text-align: justify;
+		line-height: 2em;
+		margin-bottom: 100px;
+		}

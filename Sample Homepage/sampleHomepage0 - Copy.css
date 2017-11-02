@@ -1,0 +1,204 @@
+
+
+body{
+	padding: 0;
+	
+  }
+ html{
+	
+ } 
+	
+		
+	.my-container{
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+		z-index: -901;
+		opacity: 0.1;	
+		}
+		
+	
+		
+	
+	h1.header1{
+		margin-top: 20vh;
+		font-variant: small-caps;
+		text-align: center;
+		letter-spacing: 20px;
+		font-size: 350%;
+		font-family: 'Palanquin', sans-serif;
+		color: #000;	
+		}
+		
+		/*********************Transition from the left.***********************/
+		
+		@media (max-width: 1366px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 54px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    .navbar-collapse.collapsing {
+        height: auto;
+        -webkit-transition: left 0.1s ease;
+        -o-transition: left 0.1s ease;
+        -moz-transition: left 0.1s ease;
+        transition: left 0.1s ease;
+        left: -100%;
+    }
+    .navbar-collapse.show {
+        left: 0;
+        -webkit-transition: left 0.1s ease-in;
+        -o-transition: left 0.1s ease-in;
+        -moz-transition: left 0.1s ease-in;
+        transition: left 0.1s ease-in;
+    }
+}
+
+/*********************Ends here.***********************/
+
+	ul {
+		display: block;
+		list-style-type:none;
+		font-size: 20px;
+		text-align: left;
+		}
+	ul li{
+		display: block;
+		}
+	#wrapper{
+		transition: all 0.5s ease;
+		}
+	#wrapper.toggled{
+		padding-left: 250px;
+		}
+	
+	
+	.sidebar-nav{
+	    position: absolute;
+		top: 0;
+		width: 250px;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		}
+		
+	
+	.sidebar-nav li {
+		text-indent: 20px;
+		line-height: 40px;
+		}
+
+	.sidebar-nav li a {
+		display: block;
+		text-decoration: none;
+		color: #999999;
+		}
+
+	.sidebar-nav li a:hover {
+		text-decoration: none;
+		color: #fff;
+		background: rgba(255, 255, 255, 0.2);
+		}
+
+	.sidebar-nav li a:active, .sidebar-nav li a:focus {
+		text-decoration: none;
+		}
+		
+	#sidebar-wrapper{
+		z-index: 1000;
+		position: fixed;
+		left: 250px;
+		width: 0;
+		height: 100%;
+		margin-left: -250px;
+		overflow-y: auto;
+		background: #000;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+		}
+
+	#wrapper.toggled #sidebar-wrapper{
+		padding-left: 250px;
+		}
+	#page-content-wrapper {
+		width: 100%;
+		position: absolute;
+		padding: 15px;
+		}
+
+	#wrapper.toggled #page-content-wrapper {
+		position: absolute;
+		margin-right: -250px;		
+		}
+	.octicon-three-bars{
+		margin: 0;
+		position: relative;
+		top: 1px;
+		color: #000;
+		font-size: 150%;
+		text-align: left;
+		}
+		
+	.h-100{
+		position: relative;
+		top: 7vh;
+		left: 0;
+		z-index: 0;
+		height: 100%;
+		background-color: purple;
+		}
+	.h-100 li{
+		color: #000 !important;
+		text-decoration: none;
+		}
+	li a .h-100-li:hover{
+		text-decoration: none;
+		}
+		
+	.float-sm-left{
+		padding: 8vh 0 0 50px;
+		}
+		
+	.colMargin{
+		margin-top: 8vh;
+		margin-right: 2vw;
+		}
+		
+	.col-sm-2{
+		height: 100vh;
+		}
+		
+	.ali{
+		position: absolute;
+		width: 1200px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;	
+		}
+	.ali ul{
+		margin: 0 auto;
+		width: 900px;
+		}
+	.footer li{
+		display: inline-block;
+		padding: 2vw 5vw;
+		}
+	li a img{
+		width: 50px;
+		height: 50px;
+		padding: 2px;
+		
+		}
+	li a img:hover{
+		border-bottom: 2px solid black;
+		}
